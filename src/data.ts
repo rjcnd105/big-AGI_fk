@@ -13,7 +13,7 @@ export type SystemPurposeData = {
   imageUri?: string;
   examples?: string[];
   highlighted?: boolean;
-  call?: { starters?: string[] };
+  call?: { starters?: string[] }; 
   voices?: { elevenLabs?: { voiceId: string } };
 };
 
